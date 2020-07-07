@@ -13,13 +13,7 @@
    			background: rgba(0,0,0, 0);
         height: 100px; 
   		}
-      .till{
-        background-image:url("till.jpg");
+      .video{
         /* Full height */
         height: 100%; 
-
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
       }

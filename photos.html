@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/photos.css">
     <link rel="stylesheet" href="styles/animate.css">
     <title>
   		Mellor Website
@@ -32,35 +32,39 @@
     	</ul>
   	</nav>
 
-    <!-- Page title and description -->
-    <div class ="container-fluid">
-      <div class = "row">
-        <div class ="col-sm-12 text-center">
-        </div>
-      </div>
-    </div>
+	<!-- page container -->  	
+  	<div class ="container-fluid animate__animated animate__fadeIn animate__slow">
+  		<!-- Page title and description -->
+  		<div class = "row">
+  			<div class ="col-sm-12 text-center">
+  				<h1 class ="display-4">Photo Slides</h1>
+  			</div>
+  		</div>
 
-  	<!-- Entrance with house photo --> 
-  	<div class = "entrance" id = "section1">
-  		<div class="jumbotron animate__animated animate__fadeIn animate__slow" align = "center">
-        <div class="row">
-          <div class="col-sm-12">
-        <div class="card w-75" style="max-width: 400px;">
-        <h1 class ="display-4 text-dark">Landsdown Road</h1>
-    		<a class="btn btn-light btn-lg" href="#section2" role="button">Watch Video</a>
-      </div>
-    </div>
-      </div>
+
+  	<!-- Carosel of photos! -->
+	  	<div id="houseCarosel" class="carousel slide mx-auto w-75" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="styles/images/exampleJumbo.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="styles/images/exampleJumbo.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="styles/images/exampleJumbo.jpg" alt="Third slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#houseCarosel" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#houseCarosel" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
 		</div>
-	</div>
 
-  	<!-- video section -->
-  	<div class = "video" id = "section2">
-      <div class = "container-fluid">
-        <div class="jumbotron" align = "center" id = "sec2Jumbo">
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/-JsoJIHx8BQ?list=PLmUBwxvdqHq-2La24tH5J55DwBdUwZnoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
   	</div>
 
 
