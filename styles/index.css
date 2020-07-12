@@ -1,5 +1,5 @@
   		.entrance{
-  			background-image:url("images/exampleJumbo.jpg");
+  			background-image:url("images/front.jpg");
   			/* Full height */
   			height: 100%; 
 
@@ -8,12 +8,3 @@
   			background-repeat: no-repeat;
   			background-size: cover;
   		}
-  		.jumbotron{
-  			background: rgb(0,0,0); /* This is for ie8 and below */
-   			background: rgba(0,0,0, 0);
-        height: 100px; 
-  		}
-      .video{
-        /* Full height */
-
-      }
