@@ -5,7 +5,27 @@
         width: 100%; 
 
   			/* Center and scale the image nicely */
+        background-attachment: fixed;
   			background-position: center;
   			background-repeat: no-repeat;
   			background-size: cover;
   		}
+
+      .garden{
+        background-image:url("images/front.jpg");
+        /* Full height */
+        height: 100%;
+        width: 100%; 
+
+        /* Center and scale the image nicely */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      /* Set the size of the div element that contains the map */
+      .map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
