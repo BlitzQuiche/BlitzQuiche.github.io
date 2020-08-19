@@ -1,5 +1,5 @@
 .footer{
-        position:static;
+        position: static;
         width: 100%;
         text-align: center;
       }
@@ -7,4 +7,9 @@ body, html {
   		height: 100%;
   		margin:0;
     	scroll-behavior: smooth;  
+    	background-color: black;
   	}
+.navbar {
+		background-color: black;
+}
+

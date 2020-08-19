@@ -11,103 +11,127 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/animate.css">
     <title>
-  		Mellor Website
+  		MMA SITE
   	</title>
   </head>
 
-  <body class = "bg-light">
+  <body class = "">
+  	
   	<!-- nav bar -->
-  	<nav class ="navbar fixed-top navbar-expand navbar-light bg-light border-bottom border-dark">
-  		<a class = "navbar-brand" href = "#section1"> Mellor Site</a>
+  	<nav class ="navbar navbar-expand navbar-dark">
+  		<a class = "navbar-brand" href = "index.html">
+       <img src="styles/fdpics/NEW-LOGO.png" width="150" height="70" alt="" loading="lazy">  
+      </a>
   		<ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#section1">Rose Cottage</a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="#section2">Video</a>
-        </li>
       	<li class="nav-item ">
-       		<a class="nav-link" href="#section3">Photos</a>
+       		<a class="nav-link" href="fighters.html">Men</a>
       	</li>
      		<li class="nav-item">
-        	<a class="nav-link" href="#">Contact us</a>
-      	</li>
+        		<a class="nav-link" href="#">Women</a>
+      		</li>
       	<li class="nav-item">
-        	<a class="nav-link" href="#">Other</a>
+        	<a class="nav-link" href="#">Kids</a>
       	</li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Equipment</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">New</a>
+        </li>
     	</ul>
   	</nav>
 
-
-  	<!-- Entrance with house photo --> 
-  	<div class = "entrance container-fluid" id = "section1">
+  	<!-- Entrance with photo --> 
+    <div class = "entrance container-fluid text-center my-auto animate__animated animate__fadeIn animate__slow " id = "section1">
       <div class="row h-75">
-        <div class="col-sm-12 my-auto">
-          <div class= "card text-center mx-auto animate__animated animate__fadeIn animate__slow", style="width: 18em">
-          <div class="card-body">
-            <h1 class ="display-4 text-dark">Rose Cottage</h1>
-    		    <a class="btn btn-light btn-lg" href="#section2" role="button">Watch Video</a>
-          </div>
+        <div class ="col-sm-12 my-auto">
+		      <h1 class="display-4 text-light">FIGHTDEPOT</h1>
+		      <a class="btn btn-dark btn-lg" href="#section2" role="button">Enter the store</a>
         </div>
-       </div>
-	   	</div>
+      </div>
 	 </div>
 
-  	<!-- video section -->
-    <div class = "container-fluid" id = "section2">
-      <div class = "row text-center">
-        <div class="col-sm-12 embed-responsive embed-responsive-16by9">
-           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-JsoJIHx8BQ?list=PLmUBwxvdqHq-2La24tH5J55DwBdUwZnoI" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- photo section -->
-    <div class= "container-fluid", id = "section3">
-      <div class = "row">
-      <!-- Carosel of photos! -->
-        <div id="houseCarosel" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="styles/images/front.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="styles/images/lounge.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="styles/images/kitchen.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="styles/images/bath.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="styles/images/downBed.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="styles/images/upLanding.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="styles/images/upBedOne.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="styles/images/upBigBed.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="styles/images/smallRoom.jpg" alt="Third slide">
+  	<!-- Dispiline Photos page -->
+  	<div class = "disciplineWindows" id = "section2">
+      <div class = "container-fluid">
+        <div class = "row pt-2">
+          <div class = "col-sm-4 my-0 px-0"> 
+            <div class = "card bg-dark wow animate__animated animate__fadeIn animate__slow">
+              <img class="card-img-top shopWindow" src="styles/fdpics/Boxing.jpg" alt="Card image cap">
+              <div class="card-img-overlay text-center">
+                <div class="row h-100">
+                  <div class = "col-sm-12 my-auto">
+                    <div class="display-4 text-light">Boxing Shop</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#houseCarosel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#houseCarosel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class = "col-sm-4 my-0 px-0">
+            <div class = "card bg-dark wow animate__animated animate__fadeIn animate__slow">
+              <img class="card-img-top shopWindow" src="styles/fdpics/BJJ.jpg" alt="Card image cap">
+              <div class="card-img-overlay text-center">
+                <div class="row h-100">
+                  <div class = "col-sm-12 my-auto">
+                    <div class="display-4 text-light">Jiu Jitsu Shop</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "col-sm-4 my-o px-0">
+            <div class = "card bg-dark wow animate__animated animate__fadeIn animate__slow">
+              <img class="card-img-top shopWindow" src="styles/fdpics/Gym.jpg" alt="Card image cap">
+              <div class="card-img-overlay text-center">
+                <div class="row h-100">
+                  <div class = "col-sm-12 my-auto">
+                    <div class="display-4 text-light">Gym Shop</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "row py-2">
+          <div class = "col-sm-4 my-0 px-0"> 
+            <div class = "card bg-dark wow animate__animated animate__fadeIn animate__slow">
+              <img class="card-img-top shopWindow" src="styles/fdpics/Boxing.jpg" alt="Card image cap">
+              <div class="card-img-overlay text-center">
+                <div class="row h-100">
+                  <div class = "col-sm-12 my-auto">
+                    <div class="display-4 text-light">Beginner Bundles</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "col-sm-4  my-0 px-0">
+            <div class = "card bg-dark wow animate__animated animate__fadeIn animate__slow">
+              <img class="card-img-top shopWindow" src="styles/fdpics/Dojo.jpg" alt="Card image cap">
+              <div class="card-img-overlay text-center">
+                <div class="row h-100">
+                  <div class = "col-sm-12 my-auto">
+                    <div class="display-4 text-light">MMA Shop</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "col-sm-4  my-o px-0">
+            <div class = "card bg-dark wow animate__animated animate__fadeIn animate__slow">
+              <img class="card-img-top shopWindow" src="styles/fdpics/Kickboxing.jpg" alt="Card image cap">
+              <div class="card-img-overlay text-center">
+                <div class="row h-100">
+                  <div class = "col-sm-12 my-auto">
+                    <div class="display-4 text-light">Protective Equipment</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+  	</div>
 
 
      <!-- Footer -->
