@@ -19,3 +19,10 @@
         max-width: 600px;
         object-fit: cover;
       }
+
+      /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .entrance {
+    background-attachment: scroll;
+  }
+}
